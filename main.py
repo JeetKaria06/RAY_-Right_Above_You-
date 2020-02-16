@@ -27,26 +27,3 @@ for rt in t:
     tmp = datetime.fromtimestamp(rt)
     times.append(tmp)
     print(tmp)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
