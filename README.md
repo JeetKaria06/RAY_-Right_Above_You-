@@ -14,7 +14,7 @@ python3 main.py your_latitudes your_longitudes
 
 Considering you are in Rajkot, Gujarat, India then you latitudes are
 
-**Latitudes = 22.3039** (> 0 if it is in the North of the equator or else append '-' sign before the number)
+**Latitudes = 22.3039** (> 0 if it is in the North of the equator or else append '-' sign before the number) \\
 **Longitudes = 70.8022** (> 0 if it is in the East of the prime meridian or else append '-' sign before the number)
 
 My command for the sample argument will be
