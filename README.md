@@ -12,7 +12,7 @@ or (if you have python3 installed in your machine)
 python3 main.py your_latitudes your_longitudes
 ```
 
-Considering you are in Rajkot, Gujarat, India then you latitudes are
+Considering you are in Rajkot, Gujarat, India then your latitudes and longitudes are
 
 **Latitudes = 22.3039** (> 0 if it is in the North of the equator or else append '-' sign before the number) <br>
 **Longitudes = 70.8022** (> 0 if it is in the East of the prime meridian or else append '-' sign before the number)
