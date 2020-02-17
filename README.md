@@ -3,7 +3,7 @@ Will output the 5 closest timings from current time of when the ISS (Internation
 
 Isn't it cool if you are able to know about when recently the ISS has passed from above where you are standing or is about to come above your specified location?
 
-Run following in your terminal (after changing your present working directory to the location where your main.py file is located) also if you are not having python3 installed on your machine
+Run following in your terminal (after changing your present working directory to the location where your main.py file is located) if you are not having python3 installed on your machine
 ```
 python main.py your_latitudes your_longitudes
 ```
