@@ -5,11 +5,11 @@ Isn't it cool if you are able to know about when recently the ISS has passed fro
 
 Run following in your terminal (after changing your present working directory to the location where your main.py file is located) if you are not having python3 installed on your machine
 ```
-python main.py your_latitudes your_longitudes
+python main.py --latitude your_latitudes --longitude your_longitudes
 ```
 or (if you have python3 installed in your machine)
 ```
-python3 main.py your_latitudes your_longitudes
+python3 main.py --latitude your_latitudes --longitude your_longitudes
 ```
 
 Considering you are in Rajkot, Gujarat, India then your latitudes and longitudes are
@@ -19,7 +19,7 @@ Considering you are in Rajkot, Gujarat, India then your latitudes and longitudes
 
 My command for the sample argument will be
 ```
- python3 main.py 22.3039 70.8022
+ python3 main.py --latitude 22.3039 --longitude 70.8022
 ```
 
 Output will be as follows for sample data 
