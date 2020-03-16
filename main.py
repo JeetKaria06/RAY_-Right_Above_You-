@@ -1,18 +1,28 @@
 import requests
+import argparse
 import json
-import sys
 from datetime import datetime
 
+# parsing arguments for variable input by user at runtime
+ap = argparse.ArgumentParser()
+ap.add_argument("-lat", "--latitude", required=True, help="Latitude of the location")
+ap.add_argument("-lon", "--longitude", required=True, help="Longitude of the location")
+args = vars(ap.parse_args())
+
+#method to see the content of json object in sorted manner of the key
 def jPrint(obj):
     text = json.dumps(obj, sort_keys=True, indent=4)
     print(text)
 
+# creating parameters
 parameters = {
-    "lat":(sys.argv[1]),
-    "lon":(sys.argv[2])
+    "lat":args["latitude"],
+    "lon":args["longitude"]
 }
 
+# making request to the API-URL with specified parameters
 response = requests.get("http://api.open-notify.org/iss-pass.json", params=parameters)
+
 
 pass_times = response.json()['response']
 
